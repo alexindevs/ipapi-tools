@@ -1,6 +1,6 @@
 {
   "name": "ipapi-tools",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A package to fetch IP location information using ip-api.com",
   "main": "dist/index.js",
   "scripts": {

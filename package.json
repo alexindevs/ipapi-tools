@@ -1,0 +1,28 @@
+{
+  "name": "ipapi-tools",
+  "version": "1.0.0",
+  "description": "A package to fetch IP location information using ip-api.com",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexindevs/ipapi-tools.git"
+  },
+  "keywords": [
+    "ip",
+    "location",
+    "ip-api",
+    "axios"
+  ],
+  "author": "Alexin <alexindevs@example.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
